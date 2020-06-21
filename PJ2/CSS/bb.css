@@ -1,0 +1,164 @@
+body{
+    background-image: url("../../img/sky.jpg");
+    background-attachment:fixed;}<!--保持背景不动-->
+
+
+                                     .nav {
+                                         list-style-type: none;
+                                         margin: 0;
+                                         padding: 0;
+                                         overflow: hidden;
+                                         background-color: #333;
+                                         font-weight: 900;
+                                         font-size: 125%;
+                                     }
+
+.nav li {
+    float: left;
+}
+
+.active{
+    background-color:#4CAF50;
+}
+
+.nav li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+    background-color: #555;
+}
+
+.nav .dropdown {
+    display: inline-block;
+    float: right;
+}
+
+.nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.nav .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav .dropdown-content a:hover:not(.active) {
+    color: white;
+    background-color: #555
+}
+
+.nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.leftguide ul{
+    padding: 10px;
+    list-style:none;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    background: rgba(240,255,255,0.3);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    font-weight: 900;
+    font-size: 125%;
+}
+
+.leftguide li{
+    padding: 2px;
+}
+
+.leftguide ul:hover{
+    background: rgba(240,255,255,0.5);
+}
+
+.leftguide input{
+    background: rgba(85,85,85,0.1);
+    width: 200px;
+    height: 26px;
+    border-radius: 10px;
+    border-color: rgba(240,255,255,0.5);
+}
+
+.leftguide button{
+    border-radius: 10px;
+    width:200px;
+    height:36px;
+    border-width: 0;
+    font-weight: 900;
+    font-size:80%;
+    background: rgba(85,85,85,0.2);
+}
+
+.leftguide button:hover{
+    background: rgba(76,175,80,0.5);
+}
+
+.result td{
+    padding: 10px 30px 0 30px;
+}
+
+.result img{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.screen select{
+    width: 200px;
+    height:30px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #f1f1f1;
+    font-weight: 900;
+    border-width: 0px;
+}
+
+.line {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 125%;
+}
+
+.change{
+    text-align: center;
+    font-size: 125%;
+    font-weight: 300;
+    padding: 20px;
+}
+
+.change .now{
+    text-decoration:none;
+    color: black;
+}
+
+.circlebtn{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    background-color: #FAF0E6;
+    border-width: 1px;
+    border-color: black;
+}
+
+.circlebtn:hover{
+    background: #FF8C00;
+}

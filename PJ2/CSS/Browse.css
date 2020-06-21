@@ -1,0 +1,213 @@
+
+.header{
+    padding: 10px 0;
+    height: 50px;
+    background: hotpink;
+}
+.lift{
+    float: left;
+    margin: auto 3px;
+    padding-left: 200px;
+}
+.target:hover{
+    background-color: #cd3a6d;
+}
+.target{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    height: 60px;
+    margin: 0 30px 0 20px;
+}
+
+.dropbtn {
+    background-color: hotpink;
+    color: white;
+    padding: 16px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 172px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: #ffdead;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: lemonchiffon}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #53cd3a;
+}
+.content{
+    background-color: white;
+    height:100%;
+    width:75%;
+    float: right;
+    }
+.content h1{
+    background: lightgray;
+    text-align: left;
+    width: 80%;
+}
+.filler{
+    margin-bottom: 20px;
+}
+.filler td{
+    background: white;
+    width: 100%;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background: limegreen;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.pic{
+    width: 180px;
+    height: 180px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    display: block;
+}
+table{
+   border-radius: 3px;
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+}
+.card{
+    border-radius: 10px;
+    border: 5px solid dimgrey;
+    width: 255px;
+    background-color: lightgray;
+    margin-left: 40px;
+
+}
+.image img {
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    height: 230px;
+    width: 250px;
+    margin-bottom: 0;
+}
+.extra{
+    background-color: lightgray;
+    font-family: "Agency FB";
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+}
+.des{
+    text-align: left;
+    font-size: 15px;
+    overflow:hidden;/*须给一个高，以便不支持时不显示超出内容*/
+    display:-webkit-box;
+    -webkit-line-clamp:1;/*显示3行，超出的用省略号代替*/
+    -webkit-box-orient:vertical;
+
+}
+.hottopic{
+    border: 0.5px solid darkgray;
+    width: 1270px;
+    float: left;
+    position:absolute; top:80%;left:10%;
+}
+.re-btn{
+    background: lightcoral;
+    color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.8s;
+    font-size: 20px;
+    width: 80px;
+}
+.ls-btn:hover{
+    transform:scale(0.96);
+}
+.toppic img{
+
+    width:600px;
+    height: 500px;
+}
+.slogan{
+    position: absolute;
+    left:10%;
+    top:11%;
+}
+aside{
+    bottom: 10.4%;
+    position: fixed;
+    float: right;
+    display: flow;
+    margin-left: 90%;
+}
+aside button{
+    border-radius: 8px;
+    width: 70px;
+    height: 70px;
+}
+.card {
+    margin: 0.2em auto 0.2em auto;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.card w-100{
+    float:left;
+}
+.card-body {
+    line-height: 20px;
+
+}
+
+.card-header {
+    line-height: 20px;
+    background-color: darkorange;
+    font-size: 18px;
+}
+.card-body text-left{
+   background-color: gold;
+}
+.container .row {
+    margin: 10px auto 5px auto;
+}
+
+.d-flex .col-3 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 6%;
+}
+
+.col-3 .crop {
+    max-width: 240px;
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.crop img {
+    height: 360px;
+    margin-top: -120px;
+}
